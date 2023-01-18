@@ -141,3 +141,38 @@
       justify-content:space-between;
     }
     
+    /*  Pseudo CSS  */
+    a:active {
+  background-color: yellow;
+}
+input:checked {
+  height: 20px;
+  width: 20px;
+}
+
+input[type=text]:enabled {
+  background: #8377f0;
+}
+
+input[type=text]:disabled {
+  background: #dddddd;
+}
+
+p:first-child {
+  background-color: yellow;
+}
+
+p:first-of-type {
+  background: red;
+}
+
+input:in-range{
+  border: 2px solid yellow;
+  width: 140px;
+}
+
+li:nth-child(2) {
+  background: lightgreen;
+}
+
+
