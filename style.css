@@ -175,4 +175,6 @@ li:nth-child(2) {
   background: lightgreen;
 }
 
-
+p:nth-last-of-type(3) {
+  background: rgb(50, 66, 207);
+}
