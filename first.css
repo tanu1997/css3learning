@@ -35,29 +35,7 @@
        
          
       }
-    /* .row-1-left{
-      width:50px;
-      height:50px;
-      background-color:white;
-      border: 1px solid burlywood;
-    
-      
-    }
-    .row-1-center{
-        width:50px;
-        height:50px;
-        background-color:white;
-        border: 1px solid burlywood;
-        
-    }
-    .row-1-right{
-        width:50px;
-        height:50px;
-        background-color:white;
-        border: 1px solid burlywood;
-        
-    }
-    */
+   
     .row-2{
       display:flex;
       justify-content:space-between;
