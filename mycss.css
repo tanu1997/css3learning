@@ -1,8 +1,26 @@
-.div
-{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
 }
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
 .row
 {
-    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box
+{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border: 2px solid black;
 }
