@@ -1,0 +1,146 @@
+body
+{
+    overflow: hidden;
+}
+
+.maincontainer
+{
+    display: flex;
+    gap: 25%;
+}
+
+.header
+{
+    font-size: 13px;
+    text-align: right;
+    padding-top: 22px;
+    padding-right: 10px;
+}
+
+.menu
+{
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* .appLogo
+{
+    text-align: center;
+    display: inline-block;
+    width: 86px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} */
+
+.userImage
+{
+    border-radius: 50%;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+}
+
+.iconnew
+{
+    background-color: white;
+    border:none;
+    outline:none;
+    box-shadow: none;
+    padding-right: none;
+}
+
+.container
+{
+    padding-top: 140px;
+    padding-bottom: 160px;
+}
+
+.search
+{
+    font-size: 13px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 14px;
+    width: 600px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+}
+
+.container .search:hover
+{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.container .search:focus-within
+{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.input
+{
+    text-align: left;
+    width:95%;
+    border: none;
+    outline: none;
+}
+
+.voiceSearch
+{
+    float: right;
+    height: 24px;
+    width: 24px;
+}
+
+.btn
+{
+    display: inline-block;
+    padding-top: 33px;
+    padding: 30px;
+}
+
+.btns
+{
+/*     padding: 18px; */
+    margin-right: 7px;
+    height: 36px;
+    color: #5F6368;
+    font-size: 15px;
+    font-family: Arial,sans-serif
+    
+} 
+
+.btns:hover
+{
+    border: 1.5px solid lightslategray;
+    color: black;
+}
+
+
+.mainfooter
+{
+    font-size: 20px;
+    background-color: lightslategrey;
+    opacity: 35%;
+    height: 100%;
+}
+.footer
+{
+    padding-top: 22px;
+
+}
+
+.img2
+{
+    width: 30%;
+    height: 30%;
+}
