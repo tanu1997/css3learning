@@ -1,0 +1,72 @@
+body{
+    overflow: hidden;
+}
+
+.container
+{
+    display: block; 
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    justify-content: space-between;
+}
+
+
+.header
+{
+    min-width: 80%;
+    text-align: center;
+    padding: 5%;
+}
+
+.middle
+{
+    text-align: center;
+}
+
+ textarea
+{
+    
+    border-radius: 5px;
+    overflow: hidden;
+    width: 60%;
+    align-items: center;
+    padding: 1rem;
+    
+
+}
+
+
+
+.small
+{
+    text-align: center;
+    padding: 12px;
+    margin: 2%;
+    display: block;
+}
+
+
+.specific
+{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: #007ca5;
+}
+
+.header h1
+{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Inter var,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.header p {
+    margin-top: 0.5rem;
+    margin-bottom: -2rem;
+    font-size: 20px;
+    line-height: 5px;
+   
+}
+
